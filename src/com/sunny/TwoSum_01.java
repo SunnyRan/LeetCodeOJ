@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Hashtable;
 
-public class Two_Sum {
+public class TwoSum_01 {
 
 	public static void main(String[] args) {
 		int [] test = {0,4,3,0};
@@ -69,8 +69,8 @@ public class Two_Sum {
 //    
 //    public static void quickSort(int[] numbers, int start, int end) {   
 //        if (start < end) {   
-//            int base = numbers[start]; // 选定的基准值（第一个数值作为基准值）   
-//            int temp; // 记录临时中间值   
+//            int base = numbers[start]; // 选锟斤拷锟侥伙拷准值锟斤拷锟斤拷一锟斤拷锟斤拷值锟斤拷为锟斤拷准值锟斤拷   
+//            int temp; // 锟斤拷录锟斤拷时锟叫硷拷值   
 //            int i = start, j = end;   
 //            do {   
 //                while ((numbers[i] < base) && (i < end))   

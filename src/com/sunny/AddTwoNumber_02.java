@@ -1,6 +1,6 @@
 package com.sunny;
 
-public class Add_Two_Number {
+public class AddTwoNumber_02 {
 
 	public static void main(String[] args) {
 		ListNode a = new ListNode(2);

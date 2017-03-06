@@ -2,7 +2,7 @@ package com.sunny;
 
 import java.util.Hashtable;
 
-public class Longest_Substring_Without_Repeating_Characters {
+public class LongestSubstringWithoutRepeatingCharacters_03 {
 
 	public static void main(String[] args) {
 		String s = "jxdlnaaij";

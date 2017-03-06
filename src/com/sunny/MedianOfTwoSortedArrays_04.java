@@ -1,6 +1,6 @@
 package com.sunny;
 
-public class Median_of_Two_Sorted_Arrays {
+public class MedianOfTwoSortedArrays_04 {
 public static void main(String[] args) {
 	int [] nums1 = {1};
 	int [] nums2 = {};
