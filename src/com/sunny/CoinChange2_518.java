@@ -13,8 +13,6 @@ public class CoinChange2_518 {
 
     }
 
-
-
     public int total = 0;
     public int change(int amount, int[] coins) {
         if(amount == 0 )return 1;
@@ -33,6 +31,20 @@ public class CoinChange2_518 {
             getChange(amount - coins[star], coins, star);
         }
         getChange(amount, coins, --star);
+    }
+
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+    public int change2(int amount, int[] coins) {
+        int [] dp = new int[amount+1];
+        dp[0] =1;
+        for(int coin:coins){
+            for(int i = 1;i<=amount;i++){
+                if(i>=coin)dp[i]+=dp[i-coin];
+            }
+        }
+        return dp[amount];
     }
 }
 
